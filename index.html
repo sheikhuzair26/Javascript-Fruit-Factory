@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Before Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h2>Fruit Shop</h2>
+    </header>
+
+    <section id="first-sect">
+
+        <strong> I have Rs.
+            <input class="initial-value" value="28">
+
+
+
+
+        </strong>
+    </section>
+
+
+    <section id="second-sect">
+
+        <strong> Your Total is Rs.
+            <span class="total-price">
+                0
+            </span>
+        </strong>
+    </section>
+
+    <section id="calculator">
+        <div class="main">
+
+            <h4>
+                Rs. 10
+            </h4>
+
+            <figure>
+                <img src="images/apple.PNG" alt="">
+            </figure>
+
+            <span class="btn">
+                <button class="left-btn" onclick="addButtonApple();"> + </button>
+                <input id="txtNumApple" type="text" value="0">
+                <button class="right-btn" onclick="substractButtonApple();"> - </button>
+
+
+            </span>
+
+        </div>
+
+
+
+
+        <div class="main">
+
+            <h4>
+                Rs. 15
+            </h4>
+
+            <figure>
+                <img src="images/orange.PNG" alt="">
+            </figure>
+
+            <span class="btn">
+                <button class="left-btn" onclick="addButtonMango();"> + </button>
+                <input id="txtNumMango" type="text" value="0">
+                <button class="right-btn" onclick="substractButtonMango();"> - </button>
+
+            </span>
+
+        </div>
+
+
+        <div class="main">
+
+            <h4>
+                Rs. 7
+            </h4>
+
+            <figure>
+                <img src="images/kela.PNG" alt="">
+            </figure>
+
+            <span class="btn">
+
+                <button class="left-btn" onclick="addButtonBanana();"> + </button>
+                <input id="txtNumBanana" type="text" value="0">
+                <button class="right-btn" onclick="substractButtonBanana();"> - </button>
+
+            </span>
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

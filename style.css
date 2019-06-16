@@ -1,0 +1,121 @@
+* {
+    /* box-sizing: border-box; */
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    background: linear-gradient(to top, #1f1c2c, #928dab);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+    line-height: 4em;
+    font-size: larger;
+}
+
+#first-sect {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    line-height: 15px;
+    margin: 20px;
+}
+
+.initial-value {
+    font-size: 18px;
+    border: 1px solid;
+    padding: 3px 5px 3px 5px;
+    border-radius: 15px;
+    width: 60px;
+}
+
+#second-sect {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* line-height: 15px; */
+    margin: 25px 0px 0px 0px;
+    padding: 85px;
+    background-color: #efe2cc;
+}
+
+.total-price {
+    font-size: 33px;
+    color: red;
+}
+
+#calculator {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: linear-gradient(to top, #1f1c2c, #928dab);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 24px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #5c6476;
+}
+
+h4 {
+    background-color: #346e34;
+    color: wheat;
+    margin: 0px;
+    padding: 11px;
+}
+
+figure {
+    background-color: #f3f3f3;
+    margin: 0px;
+}
+
+.btn {
+    display: flex;
+    padding: 12px 14px;
+}
+
+.left-btn {
+    padding: 6px 12px;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #444b49;
+    color: white;
+    border-color: #444b49;
+    outline: none;
+}
+
+.right-btn {
+    padding: 6px 12px;
+    border-radius: 0px 10px 10px 0px;
+    color: white;
+    background-color: #444b49;
+    border-color: #444b49;
+    outline: none;
+}
+
+input {
+    background-color: #dfdede;
+    outline: none;
+    border-color: #444b49;
+    text-align: center;
+}
+
+@media screen and (max-width:820px) {
+    #calculator {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main {
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    #second-sect {
+        padding: 60px;
+    }
+}
